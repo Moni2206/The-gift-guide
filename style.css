@@ -1,0 +1,81 @@
+/* Basic header layout */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  background: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  font-family: system-ui, sans-serif;
+}
+
+/* Menu button */
+.menu-btn {
+  background: #f5f7fa;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Logo */
+.logo {
+  font-family: "Times New Roman", serif;
+  font-weight: 400;
+  margin: 0 1.5rem;
+  flex-shrink: 0;
+}
+
+/* Ensure logo image fits nicely in the header */
+.logo img {
+  height: 80px;
+  width: auto;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Search bar */
+.search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.search input {
+  border: none;
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  outline: none;
+  font-size: 0.95rem;
+}
+
+.search button {
+  background: transparent;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+}
+
+/* Icons and links on the right */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-left: 1rem;
+  margin-right: 100px;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  color: #222;
+  font-size: 0.9rem;
+  text-decoration: none;
+  gap: 0.25rem;
+}
