@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>productlist</title>
+    <title>Product List</title>
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/productliste.css" />
     <script src="js/productliste.js" defer></script>
@@ -13,73 +13,53 @@
     <header class="header">
       <div class="logo">
         <a href="index.html">
-        <img src="./thegiftguide.png" alt="" />
+          <img src="./thegiftguide.png" alt="The Gift Guide logo" />
+        </a>
       </div>
       <div class="search">
         <input type="text" placeholder="Søg produkter og gaver" />
         <button><i class="search"></i></button>
       </div>
       <nav class="icons">
-        <a href="#"><i class="Him"></i> For Him</a>
-        <a href="#"><i class="Her"></i> For Her</a>
-        <a href="#"><i class="Favorite"></i> Favorites</a>
-        <a href="#"><i class="About"></i> About us</a>
+        <a href="#">For Him</a>
+        <a href="#">For Her</a>
+        <a href="#">Favorites</a>
+        <a href="#">About us</a>
       </nav>
     </header>
 
+    <section class="categorylist">
+      <!-- Dropdown 1 -->
+      <div class="dropdown">
+        <button class="dropdown-btn">Price <span class="arrow">▼</span></button>
+        <ul class="dropdown-menu">
+          <li>Under 50,-</li>
+          <li>Under 100,-</li>
+          <li>Under 300,-</li>
+          <li>Under 500,-</li>
+        </ul>
+      </div>
+
+      <!-- Dropdown 2 -->
+      <div class="dropdown">
+        <button class="dropdown-btn">Event <span class="arrow">▼</span></button>
+        <ul class="dropdown-menu">
+          <li>Birthday</li>
+          <li>Christmas</li>
+          <li>Valentine's</li>
+        </ul>
+      </div>
+    </section>
+
+    <!--  <nav class="subnav">
+      <a href="productliste.html?category=Mens-shirts">Mens shirts</a>
+      <a href="productliste.html?category=Mens-shoes">Mens shoes</a>
+      <a href="productliste.html?category=Mens-watches">Mens watches</a>
+    </nav> -->
+    <nav></nav>
+
     <main>
       <h1 class="title">Categories</h1>
-
-      <section class="categories categorylist"></section>
-
-      <section class="categorylist">
-        <!-- Dropdown 1 -->
-        <div class="dropdown">
-          <button class="dropdown-btn">Price <span class="arrow">▼</span></button>
-          <ul class="dropdown-menu">
-            <li>Under 50,-</li>
-            <li>Under 100,-</li>
-            <li>Under 300,-</li>
-            <li>Under 500,-</li>
-          </ul>
-        </div>
-
-        <!-- Dropdown 2 -->
-        <div class="dropdown">
-          <button class="dropdown-btn">Event <span class="arrow">▼</span></button>
-          <ul class="dropdown-menu">
-            <li>Birthday</li>
-            <li>Christmas</li>
-            <li>Valentine's</li>
-          </ul>
-        </div>
-      </section>
-      <section class="productlist">
-        <article class="hvid">
-          <div class="faver">
-            <img src="https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp" alt="" />
-          </div>
-          <div class="green">
-            <h3>Name: Nike</h3>
-            <p>Price: 190,-</p>
-            <p class="rabat">55%</p>
-
-            <a href="">Read more </a>
-          </div>
-        </article>
-        <article class="hvid">
-          <div class="faver">
-            <img src="https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp" alt="" />
-          </div>
-          <div class="green">
-            <h3>Name: Nike</h3>
-            <p>Price: 190,-</p>
-            <p class="rabat">55%</p>
-
-            <a href="">Read more </a>
-          </div>
-        </article>
-      </section>
     </main>
   </body>
 </html>
