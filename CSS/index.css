@@ -1,5 +1,4 @@
 body {
-  font-family: "Inter", sans-serif;
   background-color: #dadacd;
   color: #000;
   margin: 0;
@@ -37,7 +36,7 @@ main .buttons {
   margin-bottom: 40px;
 }
 
-main .category-btn {
+.category-btn {
   background-color: #3e544a;
   color: white;
   border: none;
@@ -46,6 +45,12 @@ main .category-btn {
   font-size: 1.1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.category-btn a {
+  color: white;
+  text-decoration: none;
 }
 
 main .category-btn:hover {
