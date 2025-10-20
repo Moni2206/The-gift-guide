@@ -8,6 +8,14 @@
   font-family: system-ui, sans-serif;
 }
 
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+
+.body p {
+  font-family: "poppins", sans-serif;
+}
+
 /* Menu button */
 .menu-btn {
   background: #f5f7fa;
