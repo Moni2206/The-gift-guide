@@ -2,6 +2,12 @@ main {
   margin: 5rem auto;
   max-width: 1200px;
 }
+.section-title {
+  font-size: xx-large;
+}
+.title {
+  padding-left: 30rem;
+}
 /*Dropdown*/
 .dropdown {
   position: relative;
@@ -63,7 +69,8 @@ main {
 .categorylist {
   display: flex;
   gap: 4rem;
-  padding: 2rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
 }
 
 /*article*/
@@ -119,8 +126,8 @@ main {
   border-radius: 50%;
   font-weight: 600;
   font-size: 14px;
-  width: 45px;
-  height: 45px;
+  width: 52px;
+  height: 52px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -147,4 +154,39 @@ main {
 .green p:nth-child(2) {
   font-weight: 600;
   color: #000;
+}
+/*Knapper Categories*/
+
+/* Containeren (nav) */
+.category-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+/* Knapperne */
+.category-btn {
+  text-decoration: none;
+  color: #fffdfd;
+  background-color: #3b564d;
+  border: 1px solid #ddd;
+  padding: 1rem 1.5rem;
+  border-radius: 25px;
+  font-size: large;
+  transition: all 0.2s ease-in-out;
+}
+
+.category-btn:hover {
+  background-color: #00234b;
+  color: #fff;
+}
+
+/* Aktiv knap (den valgte kategori) */
+.category-btn.active {
+  background-color: #000000;
+  color: #fff;
+  border-color: #000000;
 }
