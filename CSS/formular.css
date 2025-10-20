@@ -1,0 +1,47 @@
+.email {
+  padding: 4rem;
+  background-color: #c1c1c0;
+  border-radius: 12px;
+}
+.form {
+  padding-top: 1rem;
+  padding-right: 6rem;
+}
+.form a {
+  color: #e91007;
+}
+.form-email {
+  padding-bottom: 3rem;
+}
+.label {
+  padding-right: 21.5rem;
+}
+
+.label-email {
+  padding-right: 11.5rem;
+}
+.log {
+  width: 25rem;
+}
+.submit {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.submit-button {
+  padding: 0.6rem;
+}
+
+.green {
+  background-color: #3e544a;
+  color: white;
+  font-size: medium;
+  border-radius: 25px;
+  border: none;
+}
+.gul {
+  background-color: #a78b60;
+  color: white;
+  border-radius: 25px;
+  border: none;
+}

@@ -54,6 +54,7 @@ function fetchCategories(categories, specificCategory = null) {
 function createSection(title, products) {
   const sectionEl = document.createElement("section");
   sectionEl.innerHTML = `
+  
     <h2 class="section-title">${title}</h2>
     <div class="productlist">
       ${products
