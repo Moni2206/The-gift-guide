@@ -6,9 +6,7 @@
     <title>Forside</title>
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/index.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="CSS/formular.css" />
   </head>
   <body>
     <header class="header">
@@ -27,25 +25,30 @@
       </nav>
     </header>
     <main>
-      <div class="container">
-        <h1>Welcome to The Gift Guide</h1>
+      <h2>Login</h2>
+      <div class="email">
+        <div class="form-email">
+          <div>
+            <label class="label-email" for="email">Email </label>
 
-        <div class="buttons">
-          <button class="category-btn">
-            <a href="productliste.html?section=him"><i class="Him"></i> For Him</a>
-          </button>
-          <button class="category-btn">
-            <a href="productliste.html?section=her"><i class="Her"></i>For her</a>
-          </button>
-          <button class="category-btn">For All</button>
-        </div>
-
-        <div class="carousel">
-          <button class="arrow left">&#8249;</button>
-          <div class="image-box">
-            <img src="./thegiftguide.png" alt="Tilbud til hende billedet" />
+            <span>Skal indeholde et @ tegn</span>
           </div>
-          <button class="arrow right">&#8250;</button>
+          <input class="log" name="email" type="email" />
+        </div>
+        <div>
+          <div class="label">
+            <label for="kod">Kodeord </label>
+          </div>
+          <input class="log" name="kod" type="kod" />
+          <div>
+            <div class="form">
+              <a href="formular.html">Jeg har glemt mit brugernavn eller kodeord.</a>
+            </div>
+          </div>
+        </div>
+        <div class="submit">
+          <button class="submit-button gul">Opret ny bruger</button>
+          <button class="submit-button green">Log på</button>
         </div>
       </div>
     </main>
