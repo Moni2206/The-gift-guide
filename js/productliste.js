@@ -68,7 +68,9 @@ function createSection(title, products) {
           <div class="green">
             <h3>${product.title}</h3>
             <p>Price: ${Math.round(product.price - (product.price * product.discountPercentage) / 100)},-</p>
-            <a href="#">Read more</a>
+      <a href="produkt.html?id=${product.id}">Read more</a>
+
+
           </div>
         </article>
       `

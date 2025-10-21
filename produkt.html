@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="stylesheet" href="CSS/productliste.css" />
     <script src="js/produkt.js" defer></script>
+    <script src="js/produktliste.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -18,68 +19,23 @@
         <button><i class="search"></i></button>
       </div>
       <nav class="icons">
-        <a href="#"><i class="Him"></i> For Him</a>
-        <a href="#"><i class="Her"></i> For Her</a>
+        <a href="productliste.html?section=him">For Him</a>
+        <a href="productliste.html?section=her">For Her</a>
         <a href="#"><i class="Favorite"></i> Favorites</a>
         <a href="#"><i class="About"></i> About us</a>
       </nav>
     </header>
-    <main class="product-layout">
-      <!-- Product Image -->
-      <img id="productImage" src="" alt="Produktbillede" />
+    <main class="product-layout"></main>
 
-      <!-- Product Info -->
-      <aside class="buy-box">
-        <section class="product-info">
-          <h2 id="productName">Product Name</h2>
-          <p><strong></strong><br /></p>
-          <p>
-            <strong></strong><br />
-            <span id="productColor"></span>
-          </p>
-
-          <div class="brand">
-            <h3></h3>
-            <p id="brandName"></p>
-          </div>
-
-          <label for="size">Choose a size</label>
-          <select id="size">
-            <option>S</option>
-            <option>M</option>
-            <option>L</option>
-            <option>XL</option>
-          </select>
-
-          <button>Add to cart</button>
-        </section>
-      </aside>
-    </main>
     <footer class="footer">
       <div class="footer-content">
         <p>Sign up to our newsletter</p>
-        <input
-          type="email"
-          placeholder="Enter your email"
-          class="newsletter-input"
-        />
+        <input type="email" placeholder="Enter your email" class="newsletter-input" />
       </div>
       <div class="social-media">
-        <a
-          href="https://www.instagram.com/The.gift.guide/"
-          target="_blank"
-          class="social-icon instagram"
-        ></a>
-        <a
-          href="https://www.facebook.com/The.gift.guide?locale=da_DK"
-          target="_blank"
-          class="social-icon facebook"
-        ></a>
-        <a
-          href="https://www.tiktok.com/The.gift.guide/"
-          target="_blank"
-          class="social-icon tiktok"
-        ></a>
+        <a href="https://www.instagram.com/The.gift.guide/" target="_blank" class="social-icon instagram"></a>
+        <a href="https://www.facebook.com/The.gift.guide?locale=da_DK" target="_blank" class="social-icon facebook"></a>
+        <a href="https://www.tiktok.com/The.gift.guide/" target="_blank" class="social-icon tiktok"></a>
       </div>
     </footer>
   </body>
