@@ -2,11 +2,16 @@ main {
   margin: 5rem auto;
   max-width: 1200px;
 }
-.section-title {
+.section-title,
+h2 {
   font-size: xx-large;
 }
 .title {
-  padding-left: 30rem;
+  padding-left: 5rem;
+}
+.cat {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /*Dropdown*/
@@ -70,8 +75,8 @@ main {
 .categorylist {
   display: flex;
   gap: 4rem;
-  padding-left: 3rem;
-  padding-top: 3rem;
+  padding-right: 10rem;
+  padding-top: 3.5rem;
 }
 
 /*article*/
@@ -166,6 +171,9 @@ main {
   gap: 1rem;
   margin: 2rem auto;
   padding: 1rem;
+}
+.knapper1 {
+  padding-right: 15rem;
 }
 
 /* Knapperne */
