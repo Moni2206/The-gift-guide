@@ -3,9 +3,9 @@ const main = document.querySelector("main");
 const navContainer = document.querySelector(".mennav");
 
 // Debug: sikre at elementerne findes
-console.log("productliste.js loaded");
-console.log("main:", main);
-console.log("navContainer:", navContainer);
+//console.log("productliste.js loaded");
+//console.log("main:", main);
+//console.log("navContainer:", navContainer);
 
 // Kategorier
 const mensCategories = ["Mens-shirts", "Mens-shoes", "Mens-watches"];
@@ -15,7 +15,7 @@ const womensCategories = ["Beauty", "Womens-bags", "Womens-dresses", "Womens-jew
 const params = new URLSearchParams(window.location.search);
 const section = params.get("section"); // "him" eller "her"
 const category = params.get("category"); // specifik kategori hvis valgt
-console.log("URL params:", { section, category });
+//console.log("URL params:", { section, category });
 
 // Hvis navContainer eller main ikke findes — stop og log fejl
 if (!navContainer) {
@@ -119,7 +119,7 @@ function updateNavButtons() {
   navContainer.classList.add("category-nav");
 
   // Debug: vis den genererede HTML i konsollen
-  console.log("Genererede knapper:", navContainer.innerHTML);
+  //console.log("Genererede knapper:", navContainer.innerHTML);
 }
 
 // Opdater knapperne først
@@ -128,6 +128,6 @@ updateNavButtons();
 // Hent og vis produkter
 const categoriesToFetch = section === "her" ? womensCategories : mensCategories;
 fetchCategories(categoriesToFetch, category).then((products) => {
-  console.log("Hentede produkter:", products && products.length);
+  //console.log("Hentede produkter:", products && products.length);
   createSection(section === "her" ? "For Her" : "For Him", products);
 });
