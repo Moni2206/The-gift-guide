@@ -1,3 +1,6 @@
+body {
+  background-color: #dadacd;
+}
 /* Layout */
 .product-layout {
   display: flex;
