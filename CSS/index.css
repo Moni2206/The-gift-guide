@@ -28,6 +28,10 @@ header nav span {
   color: #ccc;
 }
 
+.title {
+  padding-left: 30rem;
+}
+
 main {
   display: flex;
   justify-content: center;
