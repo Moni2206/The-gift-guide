@@ -1,3 +1,85 @@
+/* ========================= */
+/*        MOBIL VERSION      */
+/* ========================= */
+@media (max-width: 768px) {
+  main h1 {
+    font-size: 1.5rem;
+  }
+
+  main .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .category-btn {
+    width: 80%;
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+
+  main .carousel {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main .image-box {
+    width: 50%;
+    height: 200px;
+  }
+
+  main .arrow {
+    font-size: 1.5rem;
+  }
+
+  main {
+    margin-top: 20px;
+    padding-bottom: 3rem;
+  }
+  /* Juster pilernes position i carousel */
+  .carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: black;
+    cursor: pointer;
+    z-index: 2;
+    transition: transform 0.2s ease;
+  }
+
+  /* Venstre pil */
+  .carousel .arrow.left {
+    left: 10px;
+  }
+
+  /* Højre pil */
+  .carousel .arrow.right {
+    right: 10px;
+  }
+
+  .carousel .arrow:hover {
+    transform: translateY(-50%) scale(1.2);
+  }
+  .carousel .image-box {
+    width: 80%;
+    max-width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+}
+
 body {
   color: #000;
   margin: 0;
