@@ -1,3 +1,90 @@
+/* ======================
+   MOBILE FIRST STYLING
+   ====================== */
+@media (max-width: 768px) {
+  main {
+    margin: 2rem 1rem;
+    max-width: 100%;
+  }
+
+  .title {
+    padding-left: 1rem;
+    font-size: xx-large;
+  }
+
+  .categorylist {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-right: 0;
+    padding-top: 1rem;
+  }
+
+  .dropdown {
+    width: 100%;
+  }
+
+  .dropdown-btn {
+    width: 100%;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    padding: 8px 12px;
+  }
+
+  .productlist {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .hvid {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .faver img {
+    border-radius: 8px;
+  }
+
+  h2 {
+    padding-left: 3rem;
+  }
+  .green h3 {
+    font-size: 16px;
+  }
+
+  .green p {
+    font-size: 14px;
+    margin: 12px 10px;
+  }
+
+  .green a {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  .knapper1 {
+    display: flex; /* Brug flexbox */
+    justify-content: space-between; /* Lige mellemrum mellem første og sidste knap */
+    flex-wrap: wrap; /* Hvis skærmen bliver for smal, går knapper til næste række */
+
+    width: 100%; /* Fylder hele containerens bredde */
+    padding: 0 2rem; /* Lidt padding i siderne */
+    box-sizing: border-box; /* Så padding ikke ændrer bredden */
+  }
+
+  .category-btn {
+    font-size: medium;
+    padding: 0.6rem 1rem;
+  }
+
+  .search input {
+    width: 70%;
+  }
+
+  .search button {
+    width: 25%;
+  }
+}
+
 main {
   margin: 5rem auto;
   max-width: 1200px;
@@ -75,7 +162,7 @@ h2 {
 .categorylist {
   display: flex;
   gap: 4rem;
-  padding-right: 10rem;
+  padding-right: 7rem;
   padding-top: 3.5rem;
 }
 
@@ -173,7 +260,7 @@ h2 {
   padding: 1rem;
 }
 .knapper1 {
-  padding-right: 15rem;
+  padding-right: 9rem;
 }
 
 /* Knapperne */
