@@ -45,3 +45,12 @@
   border-radius: 25px;
   border: none;
 }
+.submit-button {
+  text-decoration: none; /* fjerner understregning */
+  color: white; /* sikrer, at teksten er hvid */
+  display: inline-block; /* så padding virker som på en knap */
+  padding: 0.6rem;
+  border-radius: 25px;
+  border: none;
+  font-size: medium;
+}
